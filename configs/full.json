@@ -1,0 +1,13 @@
+{
+  "seed": 1805,
+  "alpha": 0.05,
+  "replications": 2000,
+  "n_per_arm": 200,
+  "standardized_effect": 0.2,
+  "resampling_replications": 500,
+  "resampling_n": 100,
+  "resamples": 999,
+  "looks": [50, 100, 150, 200, 250, 300, 350, 400, 450, 500],
+  "metrics": 20,
+  "calibration_n": 10000
+}

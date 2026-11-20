@@ -1,0 +1,17 @@
+{
+  "seed": 1954,
+  "replications_per_cell": 2000,
+  "n_cells": 9,
+  "true_ratio": 2,
+  "data": "synthetic iid bivariate Gaussian; covariance [[1,.5],[.5,1]]",
+  "artifact_sha256": {
+    "covered.png": "9304fcbf08a2118534f62979b01ecbe7274abdb02585dd32e439a308ffd10088",
+    "replications.csv": "c3460e1a6452fa43c07902f8eb2bb281306b069cb1d9e91c1340364a625648f8",
+    "unbounded.png": "d4dfdaa0909cd5cb6f9525334cb1a420add4ad983e459aa7ad1b58777a84d9d2",
+    "summary.csv": "785638ebe1ab0a75db6e22408753a7f2953b195e98f18725814353e84aafa0f4"
+  },
+  "source_sha256": {
+    "fieller_study.py": "7c34ab799fdc47118135e18a8a2baf07cd4c1d898f8dd157a3b3d51ab49d86bf",
+    "fieller.py": "15e886834b830350667b7ea07f107cf7dd11c45ce3c1e788b801ec042f1ec114"
+  }
+}

@@ -1,0 +1,9 @@
+study,scenario,method,event,events,replications,rate,mc_ci_low,mc_ci_high,n_per_arm,mean_capped_stopping_time
+sequential,effect=0.0; horizon=1000,fixed_z,type_I,104,2000,0.052,0.043099720209557914,0.06261795415444468,1000,
+sequential,effect=0.0; horizon=1000,naive_z_peeking,type_I,828,2000,0.414,0.39259844495741614,0.43573128717495924,1000,
+sequential,effect=0.0; horizon=1000,mixture_e,type_I,76,2000,0.038,0.030467599928741894,0.04730375175913581,1000,
+sequential,effect=0.0; horizon=1000,mixture_cs,simultaneous_coverage,1923,2000,0.9615,0.9521448929760082,0.9690856723833953,1000,968.4995
+sequential,effect=0.2; horizon=1000,fixed_z,power_by_horizon,1985,2000,0.9925,0.9876620858637751,0.9954496225641908,1000,
+sequential,effect=0.2; horizon=1000,naive_z_peeking,power_by_horizon,1997,2000,0.9985,0.9955989674442294,0.9994897364163615,1000,
+sequential,effect=0.2; horizon=1000,mixture_e,power_by_horizon,1876,2000,0.938,0.9265682210429607,0.9477524455386617,1000,
+sequential,effect=0.2; horizon=1000,mixture_cs,simultaneous_coverage,1939,2000,0.9695,0.9610172880930726,0.9761826045098309,1000,425.567

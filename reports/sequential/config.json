@@ -1,0 +1,10 @@
+{
+  "replications": 2000,
+  "horizon": 1000,
+  "seed": 180650,
+  "variance": 2.0,
+  "prior_scale": 0.2,
+  "alpha": 0.05,
+  "first_look": 20,
+  "data": "synthetic Gaussian"
+}

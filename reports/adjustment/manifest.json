@@ -1,0 +1,71 @@
+{
+  "project_version": "1.3.0",
+  "data_origin": "synthetic randomized experiments; constant treatment effect",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "scikit-learn": "1.8.0"
+  },
+  "independent_trials": 1600,
+  "estimator_results": 6400,
+  "failed_replications": 0,
+  "failure_policy": "Fail-fast; no dropping/retrying failures",
+  "n_definition": "total users; Bernoulli assignment yields random arm counts",
+  "comparisons": "Methods paired within trials; cells independent. MC intervals are pointwise, not simultaneous.",
+  "learner_settings": {
+    "ridge": {
+      "alpha": 1.0,
+      "scaling": "train-fold only"
+    },
+    "forest": {
+      "n_estimators": 40,
+      "max_depth": 6,
+      "min_samples_leaf": 8,
+      "max_features": 1.0,
+      "n_jobs": 1
+    }
+  },
+  "artifact_sha256": {
+    "replications.csv": "0d78d53103508e278c7ff820596e8c8ca2e6b3c10f52093c164ebbb9b11b021c",
+    "summary.csv": "4287a2b6d11c3c3611fb297384c3f2b7d7b8c96c810e5e2fe8bcf27689a80ecb",
+    "paired_comparisons.csv": "5e7d96ef3905a4e8a30d66b9acab83f46f74f0e9a6ae9619f116c9c86068a06d",
+    "config.json": "bee9110a477e69182496f8544ea7e497ba28630ff391086a39ca6a32a3279b67",
+    "figures/coverage.png": "978f69a89b01938a4bf89a3a4e9917cebdf98615c65c3dd1bd61f835b91da222",
+    "figures/paired_mse.png": "7ac557c8eb75fc32f015103c2f1a7ada7d378e40823cb5c57a44d2120a6cb1b2",
+    "figures/power.png": "6af90542e316baf26278a76926ba2525180fbf21eacc5611db468e94a5cd509f",
+    "figures/rmse.png": "b174b65b2663462705d26670b58545e1053cb965f5334edbdace16fdd13be984",
+    "figures/sampling_distributions.png": "fc0c28838977df4b63e7ef5821d681dc2458a194b88ddb3263945efd02292fb3"
+  },
+  "source_sha256": {
+    "__init__.py": "679ff96cc1bf058a6e8590ee2135ed77a4d941b6e7c9939e1bb928ced33dc41a",
+    "__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "adjustment.py": "f31bb8be62e5cfb61f0f6cf3ae2bd107c960763718098917cc788943c8b91e3c",
+    "adjustment_data.py": "b06fea765e796bf417fd2aef74e6e1610606a42d983987dd78d118bc9c847cc7",
+    "adjustment_study.py": "a47d218c9d142bafdfe8a6001142ec9b9a05c63907ab48d70b19a48368b71f69",
+    "advanced.py": "04f0f271a0a6bef21f307f9d0abc0cb443ac67da39db45a7fd4f92f5740a7c58",
+    "advanced_resampling.py": "54e4d1e5afc0df7fc01d5737bd588a3daceb989038c24f3340811e1ee9b061ef",
+    "cli.py": "8b81bd813bcb271569af93ed75ffad07a438944e113d608adf5dda97a2681193",
+    "clusters.py": "a817e1e78123370896c8235ba67bc3694e6baeaac9f00ebc68050ca222af9107",
+    "config.py": "b61209859e29be2c166a20e05924744556bfd1269f635da25c938abfa406ceb2",
+    "crossfit.py": "7120cabc5b1bbb90ffc06e58144da8a7b32b1461e2bef6b5aa66c27f16b65ab0",
+    "cuped.py": "57d91b4f8ebf41ee86477ad89038d421926be5d9610c3ec90276e26c84c9c95d",
+    "data.py": "8b600c30d1078eecf3640604c7feeea03410d7e91090d13d003e190c575d1680",
+    "evaluation.py": "40127771ee94d4e2cba2f723c2918f6ed11d0aeacd72e7a57fc1cfb5da48aa0d",
+    "inference.py": "7e0bd4618ce815213cb30742e4a200ff245f7dd5ec12d256ecb3986aa3d7e573",
+    "multiplicity.py": "a8856ff7a38246143428e29a3bdf7646d97ab4fc3cbb4497bde248b6b0d72dc5",
+    "planning.py": "d0dac495a987aa3ec24461232c4f8c2656543edb3888e051c606dc11b0fdde41",
+    "ratio.py": "23f24bd5c9d6aa3f02f312e5ecf7dce227995371185237d2a1769313bd347bc5",
+    "regression.py": "dc6d137a4ccd8d5f9740d87ef46d58acac2e4097970664547a5cc3e10b09377f",
+    "reporting.py": "9cd2c279027998f5d8b0726152680ee2b0f455a2b71e613cea3e36458d371469",
+    "resampling.py": "5035db0b913a5d02083733374b33b8cbf95d578a4da58be2570198b2c000c42b",
+    "robustness.py": "302968f329972856892f0191706e05cb924fff18a68bc1a06282e750883b5100",
+    "sequential.py": "2951da63793d23c07ddd9ae5a1629132034f28745d8b72e554336f47a95f1d82",
+    "sequential_study.py": "2075fa220c615330de970d9074b41b9064cfd9f51cb856d19ffef573c26323ac",
+    "studies.py": "6f48ca72ea6dd7da5ed85c58881676e1253cad248d0f27d62ef67342295c1601",
+    "validation.py": "6e5c800e0cdb4dbfaf0488f462ce5117230a5ef74a3e517cf2d2e2eacc3f8118"
+  }
+}

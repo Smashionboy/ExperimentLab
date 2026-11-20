@@ -1,0 +1,7 @@
+{
+  "alpha": 0.05,
+  "target_power": 0.8,
+  "mean_effect_0_2_sd_n_per_arm": 394,
+  "conversion_10_to_12_percent_n_per_arm": 3841,
+  "conversion_mde_n_5000_baseline_10_percent": 0.01743989285114606
+}

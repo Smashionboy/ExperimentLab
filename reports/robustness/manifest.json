@@ -1,0 +1,40 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8"
+  },
+  "source_sha256": {
+    "__init__.py": "4da5440af86be556a0717b7ce2c5be5a00b4ec546fcb74f97994c3662e9845e0",
+    "__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "advanced.py": "04f0f271a0a6bef21f307f9d0abc0cb443ac67da39db45a7fd4f92f5740a7c58",
+    "advanced_resampling.py": "54e4d1e5afc0df7fc01d5737bd588a3daceb989038c24f3340811e1ee9b061ef",
+    "cli.py": "8b81bd813bcb271569af93ed75ffad07a438944e113d608adf5dda97a2681193",
+    "clusters.py": "a817e1e78123370896c8235ba67bc3694e6baeaac9f00ebc68050ca222af9107",
+    "config.py": "b61209859e29be2c166a20e05924744556bfd1269f635da25c938abfa406ceb2",
+    "cuped.py": "57d91b4f8ebf41ee86477ad89038d421926be5d9610c3ec90276e26c84c9c95d",
+    "data.py": "8b600c30d1078eecf3640604c7feeea03410d7e91090d13d003e190c575d1680",
+    "inference.py": "7e0bd4618ce815213cb30742e4a200ff245f7dd5ec12d256ecb3986aa3d7e573",
+    "multiplicity.py": "a8856ff7a38246143428e29a3bdf7646d97ab4fc3cbb4497bde248b6b0d72dc5",
+    "planning.py": "d0dac495a987aa3ec24461232c4f8c2656543edb3888e051c606dc11b0fdde41",
+    "ratio.py": "23f24bd5c9d6aa3f02f312e5ecf7dce227995371185237d2a1769313bd347bc5",
+    "reporting.py": "9cd2c279027998f5d8b0726152680ee2b0f455a2b71e613cea3e36458d371469",
+    "resampling.py": "5035db0b913a5d02083733374b33b8cbf95d578a4da58be2570198b2c000c42b",
+    "robustness.py": "302968f329972856892f0191706e05cb924fff18a68bc1a06282e750883b5100",
+    "sequential.py": "2951da63793d23c07ddd9ae5a1629132034f28745d8b72e554336f47a95f1d82",
+    "sequential_study.py": "2075fa220c615330de970d9074b41b9064cfd9f51cb856d19ffef573c26323ac",
+    "studies.py": "6f48ca72ea6dd7da5ed85c58881676e1253cad248d0f27d62ef67342295c1601",
+    "validation.py": "6e5c800e0cdb4dbfaf0488f462ce5117230a5ef74a3e517cf2d2e2eacc3f8118"
+  },
+  "artifact_sha256": {
+    "config.json": "80b25c7fbc8fec06834bfc3069374826395865050a9800db4500a4a406ff9c3f",
+    "figures/bootstrap_coverage.png": "2c06fe73e59e6afb0fc50c73885ca22088bedef74479800a4ce73614ef1f878b",
+    "figures/clustering.png": "80e369bd096acf57ad93795c800c4ab72b4045f4b494fc773219af21df8a78c2",
+    "figures/ratio_type_I.png": "d7298f6b6723cd03f57143d067636cf34cd6b9b5ba7fcf6c93ab987c9a219878",
+    "rates.csv": "f2e1b34c4e8aec3ff7725b088945d16efa21e27edff18c83a8544053fbaa17ab"
+  },
+  "project_version": "1.2.0"
+}

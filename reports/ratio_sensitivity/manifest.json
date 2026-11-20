@@ -1,0 +1,18 @@
+{
+  "seed": 1955,
+  "replications_per_cell": 1000,
+  "cells": 6,
+  "true_ratio": 2,
+  "denominator_mean": 0.2,
+  "data": "synthetic iid paired observations",
+  "artifact_sha256": {
+    "paired_coverage.csv": "44c46bd91ca89827c64c1810d65393c1377d1ea7040269265c67fb6f37bdeb88",
+    "replications.csv": "5f77bdc8fe626487ecb2c121965197f327c9190267b61242e067bc2376cf2c43",
+    "sensitivity.png": "268b1a163b8df1e2df79ea4c61252379ff8aca5e1f8761bbad8b2faab5aab931",
+    "summary.csv": "d16f0a90c897d005d17f7461f2d012859b7eeed90c8c40c84b9f9a8efec5ae48"
+  },
+  "source_sha256": {
+    "ratio_sensitivity.py": "7cc929f07e173dd2d1c92e32687832e8869fd0325ee51d69ab142839e23cfbfe",
+    "fieller.py": "15e886834b830350667b7ea07f107cf7dd11c45ce3c1e788b801ec042f1ec114"
+  }
+}

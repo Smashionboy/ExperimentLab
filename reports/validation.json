@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "pytest_passed": 173,
+    "ruff": "passed",
+    "notebook_python_cells_executed": 5,
+    "full_monte_carlo": "Published historical full-run results included and hash-verified",
+    "cli_csv_analysis": "passed",
+    "windows_cp311_dependency_resolution": "passed, including scikit-learn 1.8.0",
+    "extended_monte_carlo": "completed: 20 estimates, 3 additional figures",
+    "sequential_study": "completed; 2000 trajectories per effect",
+    "adjustment_study": "completed: 1600 independent trials, 6400 estimates, 5 new figures",
+    "adjustment_cli": "passed: synthetic CSV to four estimators and OOF audit",
+    "report_artifact_hashes_verified": 36,
+    "new_figures_visual_review": "passed: all five charts",
+    "readme_local_links": "passed",
+    "fieller_study": "18000 independent Gaussian samples, paired comparison with delta, two figures",
+    "ratio_sensitivity": "completed: 6000 independent samples, 12000 method results, paired coverage comparisons, one figure visually checked",
+    "quick_studies": "All six reproduced and verified against current source"
+  },
+  "execution_environment": "Linux Python 3.12.14",
+  "not_verified": [
+    "Native Windows execution",
+    "Remote GitHub Actions",
+    "Jupyter kernel transport"
+  ],
+  "notebook_execution": "Sequential Python/stdout runner, not Jupyter kernel",
+  "statistical_reference_libraries": {
+    "scipy": "1.17.0",
+    "statsmodels": "0.14.6"
+  },
+  "project_version": "1.6.0",
+  "historical_results": "Full report files are the previously published snapshots; the release verification run used quick settings for all six studies."
+}

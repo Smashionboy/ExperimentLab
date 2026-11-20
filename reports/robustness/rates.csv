@@ -1,0 +1,21 @@
+study,scenario,method,event,events,replications,rate,mc_ci_low,mc_ci_high,n_per_arm,design_effect
+clustering,ICC=0.0; 40 clusters x 20 rows,naive_rows,type_I,87,2000,0.0435,0.03540128785854411,0.0533489763092398,800,1.0
+clustering,ICC=0.0; 40 clusters x 20 rows,cluster_means,type_I,83,2000,0.0415,0.033602383185357104,0.05115554917155182,800,1.0
+clustering,ICC=0.1; 40 clusters x 20 rows,naive_rows,type_I,506,2000,0.253,0.23443331910658927,0.27251370225034965,800,2.9000000000000004
+clustering,ICC=0.1; 40 clusters x 20 rows,cluster_means,type_I,108,2000,0.054,0.0449221548758202,0.0647878512990574,800,2.9000000000000004
+clustering,ICC=0.3; 40 clusters x 20 rows,naive_rows,type_I,913,2000,0.4565,0.4347741907060151,0.4783925924074538,800,6.7
+clustering,ICC=0.3; 40 clusters x 20 rows,cluster_means,type_I,98,2000,0.049,0.04037353995030726,0.05935563669738288,800,6.7
+ratio,ratio effect=0.0; user heterogeneity,user_delta,type_I,115,2000,0.0575,0.04812031303342549,0.06857627381048334,300,
+ratio,ratio effect=0.0; user heterogeneity,user_delta,coverage,1885,2000,0.9425,0.9314237261895166,0.9518796869665744,300,
+ratio,ratio effect=0.0; user heterogeneity,naive_poisson,type_I,1127,2000,0.5635,0.5416631431550185,0.5850933918402623,300,
+ratio,ratio effect=0.0; user heterogeneity,naive_poisson,coverage,873,2000,0.4365,0.41490660815973757,0.4583368568449815,300,
+ratio,ratio effect=0.3; user heterogeneity,user_delta,power,746,2000,0.373,0.3520679829577283,0.3944189470517098,300,
+ratio,ratio effect=0.3; user heterogeneity,user_delta,coverage,1898,2000,0.949,0.9384684614587503,0.9578100300826845,300,
+ratio,ratio effect=0.3; user heterogeneity,naive_poisson,power,1722,2000,0.861,0.8451451875937891,0.8754707042691462,300,
+ratio,ratio effect=0.3; user heterogeneity,naive_poisson,coverage,848,2000,0.424,0.40250753064293066,0.4457838605438197,300,
+bootstrap_comparison,normal,welch,coverage,473,500,0.946,0.9225734384893529,0.9626256498189425,80,
+bootstrap_comparison,normal,percentile,coverage,471,500,0.942,0.917943812143745,0.9593162708882429,80,
+bootstrap_comparison,normal,BCa,coverage,466,500,0.932,0.9064790772661258,0.9509334925750932,80,
+bootstrap_comparison,lognormal,welch,coverage,476,500,0.952,0.92957280316411,0.9675347930586469,80,
+bootstrap_comparison,lognormal,percentile,coverage,464,500,0.928,0.9019315959830375,0.9475419685818739,80,
+bootstrap_comparison,lognormal,BCa,coverage,455,500,0.91,0.8816905887106666,0.9320574521108606,80,

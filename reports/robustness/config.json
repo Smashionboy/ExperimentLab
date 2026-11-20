@@ -1,0 +1,8 @@
+{
+  "replications": 2000,
+  "bootstrap_replications": 500,
+  "resamples": 1999,
+  "seed": 650,
+  "alpha": 0.05,
+  "data": "synthetic"
+}

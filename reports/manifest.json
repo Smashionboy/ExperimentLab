@@ -1,0 +1,47 @@
+{
+  "project_version": "1.2.0",
+  "data_origin": "synthetic Monte Carlo; no real business data",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8"
+  },
+  "artifact_sha256": {
+    "rates.csv": "35b62c08d683a6d3a536a3ac77b1d2f63bdedfe887b9ce12a883b89076bea7e3",
+    "cuped_diagnostics.csv": "0ed887470cf29ca21b02ac6de23b970036906f2282446f06a30a78bece96ccb6",
+    "config.json": "ff9caffc7a21faeacd4f5847f95ee86dd6bf2daafe5037caff169e4981f58a7c",
+    "planning.json": "2c00fba39c3165edd6379d8f16a8b276a7ac6473dcc83f7e9210abb46585a69e",
+    "figures/coverage.png": "2be510e223f13cf91a99e065c28fbe3794dbc9c0d4fbbef8c0398ffbab496190",
+    "figures/cuped_power.png": "9b7cef4a2a0ca70c9cba38a38486477a19231915f86acccde887dd56e87b2afd",
+    "figures/multiplicity.png": "29270d41ce45ebe46a3a072e65474b792b7b980940eca5c26bae2ccccde362ad",
+    "figures/peeking.png": "498adbe9a597804673f4ecb8654b85d7772cdd4bf9a30efe476656dfc3131ec8",
+    "figures/power_curve.png": "dc07f686964ee3e34900e49f7d427ab7569f70519820a2cdb324d1f2fe79e927",
+    "figures/type_I.png": "152abcfcfcbd924405762d172ab8c956d4d3eb3e2a9acb716482e9e87fa9442e"
+  },
+  "source_sha256": {
+    "__init__.py": "4da5440af86be556a0717b7ce2c5be5a00b4ec546fcb74f97994c3662e9845e0",
+    "__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "advanced.py": "04f0f271a0a6bef21f307f9d0abc0cb443ac67da39db45a7fd4f92f5740a7c58",
+    "advanced_resampling.py": "54e4d1e5afc0df7fc01d5737bd588a3daceb989038c24f3340811e1ee9b061ef",
+    "cli.py": "8b81bd813bcb271569af93ed75ffad07a438944e113d608adf5dda97a2681193",
+    "clusters.py": "a817e1e78123370896c8235ba67bc3694e6baeaac9f00ebc68050ca222af9107",
+    "config.py": "b61209859e29be2c166a20e05924744556bfd1269f635da25c938abfa406ceb2",
+    "cuped.py": "57d91b4f8ebf41ee86477ad89038d421926be5d9610c3ec90276e26c84c9c95d",
+    "data.py": "8b600c30d1078eecf3640604c7feeea03410d7e91090d13d003e190c575d1680",
+    "inference.py": "7e0bd4618ce815213cb30742e4a200ff245f7dd5ec12d256ecb3986aa3d7e573",
+    "multiplicity.py": "a8856ff7a38246143428e29a3bdf7646d97ab4fc3cbb4497bde248b6b0d72dc5",
+    "planning.py": "d0dac495a987aa3ec24461232c4f8c2656543edb3888e051c606dc11b0fdde41",
+    "ratio.py": "23f24bd5c9d6aa3f02f312e5ecf7dce227995371185237d2a1769313bd347bc5",
+    "reporting.py": "9cd2c279027998f5d8b0726152680ee2b0f455a2b71e613cea3e36458d371469",
+    "resampling.py": "5035db0b913a5d02083733374b33b8cbf95d578a4da58be2570198b2c000c42b",
+    "robustness.py": "302968f329972856892f0191706e05cb924fff18a68bc1a06282e750883b5100",
+    "sequential.py": "2951da63793d23c07ddd9ae5a1629132034f28745d8b72e554336f47a95f1d82",
+    "sequential_study.py": "2075fa220c615330de970d9074b41b9064cfd9f51cb856d19ffef573c26323ac",
+    "studies.py": "6f48ca72ea6dd7da5ed85c58881676e1253cad248d0f27d62ef67342295c1601",
+    "validation.py": "6e5c800e0cdb4dbfaf0488f462ce5117230a5ef74a3e517cf2d2e2eacc3f8118"
+  },
+  "intervals": "Pointwise Wilson 95%; independent replications, paired methods. Not simultaneous."
+}
